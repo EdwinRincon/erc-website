@@ -1,0 +1,15 @@
+<div class="content">
+    <div class="p-grid p-jc-center p-nogutter">
+        <p-progressSpinner *ngIf="skills.length === 0" class="p-mt-6"  [style]="{width: '50px', height: '50px'}" styleClass="custom-spinner" strokeWidth="3"  animationDuration=".6s"></p-progressSpinner>
+        <div class="product-grid p-mt-5 p-mb-6">
+            <div *ngFor="let skill of skills" class="card">
+                <img [src]="skill.image" class="image" [alt]="skill.name">
+                <h3>{{skill.name}}</h3>
+                <div class="focus-content">
+                    <p>{{skill.description}}<br /> <a [href]="skill.website">Docs - informaci&oacute;n</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

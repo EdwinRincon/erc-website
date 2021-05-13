@@ -9,12 +9,17 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: '/home',
+        redirectTo: '/about-me',
         pathMatch: 'full'
       },
       {
-        path: 'home',
+        path: 'about-me',
         loadChildren: () => import('./home/home.module').then(m => m.HomeModule),
+        data: { preload: true }
+      },
+      {
+        path: 'skills',
+        loadChildren: () => import('./skills/skills-routing.module').then(m => m.SkillsRoutingModule),
         data: { preload: true }
       }
     ]

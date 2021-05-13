@@ -1,0 +1,51 @@
+.home-container {
+    max-width: 800px;
+    height: 100%;
+    margin-bottom: 40px;
+}
+.myImage {
+    display: flex;
+    justify-content: center;
+    img {
+        max-width: 200px;
+        height: auto;
+        max-height: 200px;
+        border-radius: 0.25rem;
+        filter: grayscale(10%) brightness(99%);
+    }
+}
+
+.fab {
+    color: #495057;
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fab:hover {
+    opacity: 0.8;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+.title:hover, .p-text-center> p:hover {
+    color: #1a5276;
+}
+
+h1 {
+    color: #303132;
+}
+
+p {
+    color: #373a3d;
+}
+
+p:nth-child(1){
+    font-family: monospace;
+    font-size: 1.2rem;
+}

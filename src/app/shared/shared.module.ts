@@ -18,8 +18,8 @@ import { PrimengModule } from '../primeng/primeng.module';
   ],
   exports: [
     HeaderComponent,
-    FooterComponent
-    
+    FooterComponent,
+    PrimengModule
   ]
 })
 export class SharedModule { }
