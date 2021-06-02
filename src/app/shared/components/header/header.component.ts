@@ -32,7 +32,7 @@ export class HeaderComponent implements OnInit {
       {
         label: 'Resume',
         icon: PrimeIcons.FILE,
-        url: 'https://drive.google.com/file/d/1rOvmnOhG9VqPzL0oZEmL2wAlmCQ9m3-u/view?usp=sharing',
+        url: 'https://drive.google.com/file/d/1SEvDTMNcbA_9C_wXAjy54tTG5aPoUkpO/view?usp=sharing',
         target: '_self'
 
       }
